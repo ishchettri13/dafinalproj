@@ -1,6 +1,3 @@
-Data Analysis Final Research Project
-================
-
 BTS: A Korean Boy Band for the People and the South Korean Economy too
 
 **Introduction**
@@ -62,7 +59,7 @@ Rivaling against the most successful and biggest Korean entertainment
 agencies is no small feat, but HYBE has managed to overtake the trio in
 the last two years as seen in the graph below.
 
-<img src="final-project2_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
+<img src="final-project2_files/figure-markdown_strict/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 To create this graph, I first gathered each entertainment’s total
 worldwide sales revenue from the designated time range, which was 2014
@@ -75,10 +72,10 @@ shortened from Total Sales Revenue — that represent the true numerical
 values of each company’s total worldwide sales revenue in billion ₩. 100
 ₩ is equivalent to 79 cents or roughly $1 USD, so 100 billion ₩ equals
 about 78 million USD. To put the data into context, HYBE Entertainment’s
-total sales revenue recorded 35.22 billion ₩ (\~28 million USD) in 2016
+total sales revenue recorded 35.22 billion ₩ (~28 million USD) in 2016
 and ranked the lowest compared to the “Big 3”. SM Entertainment just
-barely topped YG Entertainment with 349.87 billion ₩ (\~276 million USD)
-and 321.84 billion ₩ (\~254 million USD) respectively in 2016. While SM
+barely topped YG Entertainment with 349.87 billion ₩ (~276 million USD)
+and 321.84 billion ₩ (~254 million USD) respectively in 2016. While SM
 would continue to ride high as the top-selling entertainment company,
 HYBE would completely surpass the “Big 3” in both 2020 and 2021. While
 SM Entertainment, YG Entertainment and JYP Entertainment ranged revenue
@@ -99,7 +96,7 @@ Entertainment was unable to overtake HYBE Entertainment in 2020 and 2021
 in total worldwide sales revenue. Why? Well, let’s observe this graph
 below:
 
-<img src="final-project2_files/figure-gfm/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+<img src="final-project2_files/figure-markdown_strict/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 To create this graph, I searched up each of the top 5 K-pop groups’
 discographies and recorded the number of Korean copies sold for each
 studio album, repackaged album and extended play album between 2012 and
@@ -126,16 +123,16 @@ average Total Physical Copies Sold every year between 2013 and 2021. EXO
 and BTS are the most vibrant and varied in album sales from their debut
 years in 2012 and 2013 respectively to the late 2010s. However, BTS
 again surpassed the other four groups between 2016 and 2020 with album
-sales of \~2.6 million Korean copies in 2016 and \~8.6 million copies in
+sales of ~2.6 million Korean copies in 2016 and ~8.6 million copies in
 2020. To put into perspective as to how much album sales can affect a
 company’s sales revenue, HYBE Entertainment recorded 376.88 billion ₩
-(\~299 million USD) worth of album sales in 2021, which accounted for
+(~299 million USD) worth of album sales in 2021, which accounted for
 roughly 30 percent of the company’s total sales revenue mentioned
 earlier (Statista, 2021). Despite suffering a drop in 2021, BTS’s album
 sales show an increasing trend from their start in 2013 before rivaling
 world-renowned groups like EXO in 2016. But why 2016 and what makes
-BTS’s music so different from other K-pop groups that their album
-sales skyrocket? Well, let’s take a look at their musicality:
+BTS’s music so different from other K-pop groups that their album sales
+skyrocket? Well, let’s take a look at their musicality:
 
 **Compare**
 
@@ -153,7 +150,7 @@ on a scale from 0 to 1.0 (Ashrith, 2019). While energy measures
 intensity and activity on the same scale from 0 to 1.0, so songs that
 have high energy are usually fast and noisy (Ashrith, 2019).
 
-<img src="final-project2_files/figure-gfm/figures-side-1.png" width="50%" /><img src="final-project2_files/figure-gfm/figures-side-2.png" width="50%" />
+<img src="final-project2_files/figure-markdown_strict/figures-side-1.png" width="50%" /><img src="final-project2_files/figure-markdown_strict/figures-side-2.png" width="50%" />
 To clean these graphs, I took out the audio features I wasn’t measuring
 like tempo, valence and duration per ms. I also removed any Western
 artists that BTS collaborated with because I wanted to solely compare
@@ -171,7 +168,7 @@ danceabilities compared to songs released 2017, 2019 and 2021. This
 makes sense because energetic tracks will usually invoke danceability,
 which line up with the album concepts BTS were releasing those years.
 2016 marked BTS’s rise to global stardom as their second studio album
-Wings sold \~1.5 million Korean copies and featured “Blood, Sweat &
+Wings sold ~1.5 million Korean copies and featured “Blood, Sweat &
 Tears”, which broke several records within 24 hours of its music video’s
 release. The music video became the most viewed K-pop video in 24 hours
 with 6.34 million views and the fastest video to hit 10 million views in
@@ -186,7 +183,7 @@ not release an album that matches its concept with high energy and
 dance-heavy tracks at the same time that BTS does, then it’s hard to
 beat based on the previously mentioned album sales graph.
 
-<img src="final-project2_files/figure-gfm/unnamed-chunk-7-1.png" width="50%" /><img src="final-project2_files/figure-gfm/unnamed-chunk-7-2.png" width="50%" />
+<img src="final-project2_files/figure-markdown_strict/unnamed-chunk-7-1.png" width="50%" /><img src="final-project2_files/figure-markdown_strict/unnamed-chunk-7-2.png" width="50%" />
 For the two graphs above, they represent the most popular hits per year
 released between 2016 and 2021 by the top five most popular K-pop groups
 also based on specific audio features: danceability and energy. The same
@@ -227,45 +224,46 @@ globe.
 ***References***
 
 Ashrith. (2019, March 22). What Makes A Song Likeable? Medium.
-<https://towardsdatascience.com/what-makes-a-song-likeable-dbfdb7abe404>
+<a href="https://towardsdatascience.com/what-makes-a-song-likeable-dbfdb7abe404" class="uri">https://towardsdatascience.com/what-makes-a-song-likeable-dbfdb7abe404</a>
 
 Badenhausen, K., Becoats, K., Berg, M., Chmielewski, D., Cuccinello, H.,
 Freeman, A., Settimi, C., Shapiro, A., & Sorvino, C. (2020, August 31).
 The Celebrity 100: The World’s Highest-Paid Celebrities 2020. Forbes.
-<https://www.forbes.com/celebrities/>
+<a href="https://www.forbes.com/celebrities/" class="uri">https://www.forbes.com/celebrities/</a>
 
 Buchholz, K. (2019, November 5). Infographic: How Much Money Does BTS
 Make for South Korea? Statista Infographics; Statista.
-<https://www.statista.com/chart/19854/companies-bts-share-of-south-korea-gdp/>
+<a href="https://www.statista.com/chart/19854/companies-bts-share-of-south-korea-gdp/" class="uri">https://www.statista.com/chart/19854/companies-bts-share-of-south-korea-gdp/</a>
 
 Dee, E. (2022, April 5). BTS Net Worth 2022: The Boy Band That Smashed
-All Sorts of Records Earns How Much?\! Music Times.
-<https://www.musictimes.com/articles/84413/20220405/bts-net-worth-2022-boy-band-smashed-sorts-records-earns.htm>
+All Sorts of Records Earns How Much?! Music Times.
+<a href="https://www.musictimes.com/articles/84413/20220405/bts-net-worth-2022-boy-band-smashed-sorts-records-earns.htm" class="uri">https://www.musictimes.com/articles/84413/20220405/bts-net-worth-2022-boy-band-smashed-sorts-records-earns.htm</a>
 
 International Federation of the Phonographic Industry. (2020). Music
 Listening 2019. (p. 8). International Federation of the Phonographic
 Industry.
-<https://www.ifpi.org/wp-content/uploads/2020/07/Music-Listening-2019-1.pdf>
+<a href="https://www.ifpi.org/wp-content/uploads/2020/07/Music-Listening-2019-1.pdf" class="uri">https://www.ifpi.org/wp-content/uploads/2020/07/Music-Listening-2019-1.pdf</a>
 
 J.K. (2016, October 23). BTS’s “Blood Sweat & Tears” MV Breaks Another
 Record As Views Continue To Soar. Soompi.
-<https://www.soompi.com/article/909239wpp/bts-blood-sweat-tears-mv-breaks-another-record-views-continue-soar>
+<a href="https://www.soompi.com/article/909239wpp/bts-blood-sweat-tears-mv-breaks-another-record-views-continue-soar" class="uri">https://www.soompi.com/article/909239wpp/bts-blood-sweat-tears-mv-breaks-another-record-views-continue-soar</a>
 
 J.K. (2020, June 4). BTS Lands Spot In Top 50 Of Forbes’s 2020 List Of
 The World’s Highest-Paid Celebrities. Soompi.
-<https://www.soompi.com/article/1404789wpp/bts-lands-spot-in-top-50-of-forbess-2020-list-of-the-worlds-highest-paid-celebrities>
+<a href="https://www.soompi.com/article/1404789wpp/bts-lands-spot-in-top-50-of-forbess-2020-list-of-the-worlds-highest-paid-celebrities" class="uri">https://www.soompi.com/article/1404789wpp/bts-lands-spot-in-top-50-of-forbess-2020-list-of-the-worlds-highest-paid-celebrities</a>
 
 Jin, D. Y. (2020, May 26). The Korean Wave. Georgetown Journal of
 International Affairs.
-<https://gjia.georgetown.edu/2020/05/26/the-korean-wave/>
+<a href="https://gjia.georgetown.edu/2020/05/26/the-korean-wave/" class="uri">https://gjia.georgetown.edu/2020/05/26/the-korean-wave/</a>
 
 Kanojia, A. (2021, June 9). Top 20 Most Popular K-POP Groups in the
-World 2022. PopMellow. <https://popmellow.com/top-k-pop-groups/>
+World 2022. PopMellow.
+<a href="https://popmellow.com/top-k-pop-groups/" class="uri">https://popmellow.com/top-k-pop-groups/</a>
 
 Shadow, W. (2019, November 7). The “BTS Effect” on South Korea’s
 Economy, Industry and Culture. Medium.
-<https://shadow-twts.medium.com/the-bts-effect-on-south-koreas-economy-industry-and-culture-975e8933da56>
+<a href="https://shadow-twts.medium.com/the-bts-effect-on-south-koreas-economy-industry-and-culture-975e8933da56" class="uri">https://shadow-twts.medium.com/the-bts-effect-on-south-koreas-economy-industry-and-culture-975e8933da56</a>
 
 Statista. (2021, March). HYBE: sales revenue by category 2021. Statista;
 HYBE Annual Report 2021 (DART), page 20.
-<https://www.statista.com/statistics/917073/south-korea-bighit-entertainment-sales-value-by-category/>
+<a href="https://www.statista.com/statistics/917073/south-korea-bighit-entertainment-sales-value-by-category/" class="uri">https://www.statista.com/statistics/917073/south-korea-bighit-entertainment-sales-value-by-category/</a>
